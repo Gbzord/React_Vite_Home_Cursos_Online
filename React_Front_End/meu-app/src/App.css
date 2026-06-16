@@ -1,0 +1,11 @@
+/* Estilos da aplicação principal 
+   CSS específico está em cada componente */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

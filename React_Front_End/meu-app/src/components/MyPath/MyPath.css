@@ -1,0 +1,118 @@
+.my-path {
+  padding: 80px 20px;
+  background-color: #f8f9fa;
+}
+
+.my-path-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #666;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.path-card {
+  background: white;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.path-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: #0066ff;
+}
+
+.path-header {
+  flex: 1;
+}
+
+.path-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.path-meta {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.meta-icon {
+  font-size: 18px;
+}
+
+.meta-text {
+  font-weight: 500;
+}
+
+.btn-enroll {
+  background-color: #0066ff;
+  color: white;
+  padding: 14px 40px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
+.btn-enroll:hover {
+  background-color: #0052cc;
+  box-shadow: 0 4px 12px rgba(0, 102, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn-enroll:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .my-path {
+    padding: 60px 20px;
+  }
+
+  .path-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .path-title {
+    font-size: 22px;
+  }
+
+  .path-meta {
+    gap: 20px;
+  }
+
+  .btn-enroll {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+}

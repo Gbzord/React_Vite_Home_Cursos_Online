@@ -1,0 +1,86 @@
+/* 
+ * Variáveis de Cores - Design System
+ * Copie estas variáveis CSS para usar em qualquer arquivo
+ */
+
+:root {
+  /* Cores Primárias */
+  --color-primary: #0066ff;
+  --color-primary-hover: #0052cc;
+  --color-primary-light: rgba(0, 102, 255, 0.1);
+  
+  /* Cores Neutras */
+  --color-text-dark: #1a1a1a;
+  --color-text-medium: #666;
+  --color-text-light: #bbb;
+  --color-text-lighter: #999;
+  
+  /* Cores de Fundo */
+  --color-bg-light: #f8f9fa;
+  --color-bg-white: #ffffff;
+  --color-bg-dark: #0a0e27;
+  --color-bg-darker: #1a1a1a;
+  
+  /* Cores de Estado */
+  --color-border: #e0e0e0;
+  --color-border-light: #f0f0f0;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+  --color-shadow-hover: rgba(0, 0, 0, 0.15);
+  
+  /* Tipografia */
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  /* Espaçamento */
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+  --spacing-3xl: 40px;
+  --spacing-4xl: 60px;
+  --spacing-5xl: 80px;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  
+  /* Sombras */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+  --shadow-primary: 0 4px 12px rgba(0, 102, 255, 0.3);
+  
+  /* Transições */
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+  
+  /* Z-index */
+  --z-dropdown: 10;
+  --z-sticky: 100;
+  --z-modal: 1000;
+  --z-tooltip: 1100;
+}
+
+/* Exemplo de uso:
+  .button {
+    background-color: var(--color-primary);
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: var(--radius-md);
+    font-weight: var(--font-weight-bold);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-normal);
+  }
+  
+  .button:hover {
+    background-color: var(--color-primary-hover);
+    box-shadow: var(--shadow-primary);
+  }
+*/
